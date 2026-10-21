@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/altair_phase3/altair_phase3.egg-info
+writing ../../build/altair_phase3/altair_phase3.egg-info/PKG-INFO
+writing dependency_links to ../../build/altair_phase3/altair_phase3.egg-info/dependency_links.txt
+writing entry points to ../../build/altair_phase3/altair_phase3.egg-info/entry_points.txt
+writing requirements to ../../build/altair_phase3/altair_phase3.egg-info/requires.txt
+writing top-level names to ../../build/altair_phase3/altair_phase3.egg-info/top_level.txt
+writing manifest file '../../build/altair_phase3/altair_phase3.egg-info/SOURCES.txt'
+reading manifest file '../../build/altair_phase3/altair_phase3.egg-info/SOURCES.txt'
+writing manifest file '../../build/altair_phase3/altair_phase3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build
+creating /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib
+creating /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3
+copying altair_phase3/__init__.py -> /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3
+copying altair_phase3/mars_telemetry_publisher.py -> /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3
+copying altair_phase3/mission_control_monitor.py -> /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3
+running install
+running install_lib
+creating /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3
+copying /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3/__init__.py -> /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3
+copying /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3/mars_telemetry_publisher.py -> /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3
+copying /home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/build/lib/altair_phase3/mission_control_monitor.py -> /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3
+byte-compiling /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3/mars_telemetry_publisher.py to mars_telemetry_publisher.cpython-312.pyc
+byte-compiling /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3/mission_control_monitor.py to mission_control_monitor.cpython-312.pyc
+running install_data
+creating /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/share/ament_index
+creating /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/share/ament_index/resource_index
+creating /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/share/ament_index/resource_index/packages
+copying resource/altair_phase3 -> /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/share/ament_index/resource_index/packages
+copying package.xml -> /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/share/altair_phase3
+running install_egg_info
+Copying ../../build/altair_phase3/altair_phase3.egg-info to /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/python3.12/site-packages/altair_phase3-0.0.1-py3.12.egg-info
+running install_scripts
+Installing mars_telemetry_publisher script to /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/altair_phase3
+Installing mission_control_monitor script to /home/hp/altair-phase3/altair_phase3_ws/install/altair_phase3/lib/altair_phase3
+writing list of installed files to '/home/hp/altair-phase3/altair_phase3_ws/build/altair_phase3/install.log'
