@@ -1,3 +1,0 @@
-[console_scripts]
-mars_telemetry_publisher = altair_phase3.mars_telemetry_publisher:main
-mission_control_monitor = altair_phase3.mission_control_monitor:main

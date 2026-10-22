@@ -1,0 +1,8 @@
+# ROS 2 workspace build artifacts
+altair_phase3_ws/build/
+altair_phase3_ws/install/
+altair_phase3_ws/log/
+
+# Python cache
+__pycache__/
+*.py[cod]

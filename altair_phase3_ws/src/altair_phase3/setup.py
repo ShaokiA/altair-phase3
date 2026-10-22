@@ -16,11 +16,15 @@ setup(
             'share/' + package_name,
             ['package.xml'],
         ),
+        (
+            'share/' + package_name + '/launch',
+            ['launch/field.launch.py'],
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='hp',
-    maintainer_email='shaokirf@gmail.com',
+    maintainer_email='hp@example.com',
     description='Project Altair Phase 3 Mars telemetry monitoring',
     license='Apache-2.0',
     tests_require=['pytest'],
@@ -28,6 +32,8 @@ setup(
         'console_scripts': [
             'mars_telemetry_publisher = altair_phase3.mars_telemetry_publisher:main',
             'mission_control_monitor = altair_phase3.mission_control_monitor:main',
+            'turtle_driving_menu = altair_phase3.turtle_driving_menu:main',
+            'turtle_mission = altair_phase3.turtle_mission:main',
         ],
     },
 )
